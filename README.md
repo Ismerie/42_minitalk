@@ -4,9 +4,9 @@
 
 ## 📋 Règles
 
-Le server doit être lancé en premier et doit afficher son PID (Process IDentifier).
+Le serveur doit être lancé en premier et doit afficher son PID (Process IDentifier).
 Le client prendra comme paramètre :
-* Le Pid du serveur
+* Le PID du serveur
 * La chaîne qui doit être envoyée
 
 Le client doit communiquer au serveur la chaîne passée en paramètre et le serveur doit l'afficher. La communication ne doit se faire qu'en utilisant les signaux UNIX ```SIGUSR1``` et ```SIGUSR2```.
